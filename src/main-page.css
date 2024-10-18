@@ -1,6 +1,63 @@
+:root{
+    --light-theme-searchbar-color: rgba(235, 235, 235, 1);
+}
+
+body{
+    margin: 0px;
+}
 header{
+    display: fixed;
+    max-height: 84px;
+    height: 4.475%;
+}
+#header-content-container{
+    display: flex;
+    align-items: center;
+    max-height: 84px;
+}
+#menu-opener{
+    margin-left: 1.7%;
+}
+#main-icon{
+    margin: auto;
+    margin-left: 28px;
+    margin-right: 0px;
+}
+#searchbar-wrapper{
+    margin: 3%;
+    width: 43%;
+    height: 44px;
+    max-width: 830px;
+    background-color: var(--light-theme-searchbar-color);
+    contain: content    ;
+    border-radius: 22px;
+}
+#searchbar{
+    background-color: var(--light-theme-searchbar-color);
+    width: 93%;    
+    height: 100%;
+    box-shadow: none;
+    border-width: 0px;
+    font-family: "Muli";
+    font-size: 16px;
+    line-height: 20.08px;
+    padding-left: 2.8%;
+}
+#search-logo{
+    align-self: center;
+    margin: auto;
+}
+#header-logos-container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    height: 9.5%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    
+    margin-left: auto;
+}
+#user-profile{
+    margin: auto;
+    margin-left: 45px;
+    margin-right: 70px;
+    width: 40px;
+    height: 40px;
 }
