@@ -1,14 +1,129 @@
 :root{
     --light-theme-searchbar-color: rgba(235, 235, 235, 1);
 }
-
 body{
     margin: 0px;
+    font-family: "Muli";
+    overflow-x: hidden;
 }
 header{
     display: fixed;
     max-height: 84px;
     height: 4.475%;
+}
+svg{
+    cursor: pointer;
+}
+main{
+    display: grid;
+    grid-template-columns: 255px 1fr;
+}
+ul{
+    overflow-y: hidden;
+}
+img{
+    object-fit:cover;
+}
+.tiny-subscribed-image{
+    width: 26px;
+    height: 26px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.tiny-channel-bar{
+    display: flex;
+    gap: 10px;
+}
+.pressable{
+    cursor: pointer;
+}
+.main-page-recomendations-container{
+    max-width: 100%;
+    max-height: 280px;
+    display: block;
+}
+.medium-channel-bar{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.main-page-channel-logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.main-page-channel-title{
+    font-size: 26px;
+    line-height: 32.63px;
+    display: inline;
+}
+.video-card{
+    width: 250px;
+    height: 200px;
+    display:block;
+}
+.video-cover{
+    border-radius: 14px;
+    width: 250px;
+    height: 150px;
+}
+.video-length{
+    width: 42px;
+    height: 19px;
+    padding: 5px;
+    position:relative;
+    left: 193px;
+    bottom: 80px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(235, 235, 235, 1);
+    
+    text-align: center;
+}
+.video-title{
+    display: relative;
+    bottom: 10px;
+    margin: 0px;
+}
+.video-add-info{
+    display: inline;
+    font-size: 13px;
+    margin: 0px;
+    color: rgba(194, 194, 194, 1);
+}
+.video-author{
+    display: inline;
+    font-size: 13px;
+    margin: 0px;
+    float: right;
+    color: rgba(194, 194, 194, 1);
+}
+.video-scroll-list{
+    display: flex;
+    gap: 40px;
+}
+.add-data-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.arrows-scrolling{
+    display: grid;
+    margin-left: auto;
+    margin-right: 20%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.home-page-import{
+    border-width: 0px;
+    box-shadow: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+#menu-container{
+    display: fixed;
+    width: 255px;
+    margin-left: 30px;    
 }
 #header-content-container{
     display: flex;
@@ -38,7 +153,6 @@ header{
     height: 100%;
     box-shadow: none;
     border-width: 0px;
-    font-family: "Muli";
     font-size: 16px;
     line-height: 20.08px;
     padding-left: 2.8%;
@@ -60,4 +174,31 @@ header{
     margin-right: 70px;
     width: 40px;
     height: 40px;
+}
+#main-menu-tabs{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+    margin-bottom: 60px;
+}
+#secondary-menu-tabs{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+}
+#subscriptions-title{
+    font-size: 18px;
+    line-height: 22.59px;
+    font-family: "Muli";
+}
+#subscriptions-list{
+    color: rgba(137, 137, 137, 1);
+}
+#settings{
+    margin-top: 2%;
+}
+#home-page{
+    height: 100%;
+    position: relative;
+    width: calc(100% - 285px);
 }
