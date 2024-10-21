@@ -1,0 +1,111 @@
+@media (max-width: 320px) {
+    main{
+        width: 320px;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    .menu-tabs-buttons{
+        flex-flow: column;
+    }
+    .arrows-scrolling{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    .video-scroll-list{
+        flex-flow: column;
+    }
+    
+    #searchbar-wrapper{
+        visibility: visible;
+        background-color: white;
+        border-radius: 0px;
+        width: 25px;
+        height: 25px;
+        margin-left: auto;
+        margin-right: 24px;
+        align-content: center;
+    }
+    #header-logos-container{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #searchbar{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #search-logo{
+        position: fixed;
+    }
+    #menu-opener{
+        visibility: hidden;
+    }
+    #main-icon{
+        margin: 0px;
+        width: 235%;
+        height: 235%;
+        max-width: 116px;
+        max-height: 25px;
+    }
+    #menu-container{
+        position:fixed;
+        z-index: 1000;
+        bottom: 0vh;
+        margin: 0px;
+        width: 320px;
+        max-height: 6vh;
+        background-color: white;
+    }
+    #menu{
+        bottom:6vh;
+        left: 0px;
+        width: 320px;
+        max-height: 6vh;
+    }
+    #subscriptions-title{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #subscriptions-list{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #setting{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #user-profile{
+        margin-right: 16px;
+        margin-left: 0px;
+    }
+    #main-menu-tabs{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        font-size: 13px;
+        align-items: baseline;
+    }
+    #main-menu-tabs div:nth-child(n+5){
+        visibility: hidden;
+    }
+    #home-page{
+        width: 320px;
+    }
+    .home-page-import{
+        width: 320px;
+        margin-top: 3vh;
+    }
+    .video-cover{
+        border-radius: 14px;
+        width: 320px;
+    }
+    .video-length{
+        left:263px
+    }
+}
