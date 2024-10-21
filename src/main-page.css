@@ -7,16 +7,17 @@ body{
     overflow-x: hidden;
 }
 header{
-    display: fixed;
+    position: fixed;
     max-height: 84px;
-    height: 4.475%;
+    width: 100vw;
+    background-color: white;
 }
 svg{
     cursor: pointer;
 }
 main{
     display: grid;
-    grid-template-columns: 255px 1fr;
+    grid-template-columns: 255px 1fr; 
 }
 ul{
     overflow-y: hidden;
@@ -39,7 +40,6 @@ img{
 }
 .main-page-recomendations-container{
     max-width: 100%;
-    max-height: 280px;
     display: block;
 }
 .medium-channel-bar{
@@ -102,6 +102,7 @@ img{
 .video-scroll-list{
     display: flex;
     gap: 40px;
+    padding-left: 0px;
 }
 .add-data-container{
     display: grid;
@@ -115,12 +116,20 @@ img{
     gap: 10px;
 }
 .home-page-import{
+    margin-top: 84px;
     border-width: 0px;
     box-shadow: 0px;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+.menu-tabs-buttons{
+    color: rgba(137, 137, 137, 1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 #menu-container{
+    margin-top: 84px;   
     display: fixed;
     width: 255px;
     margin-left: 30px;    
@@ -179,12 +188,10 @@ img{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 28px;
-    margin-bottom: 60px;
+    margin-bottom: 58px;
 }
-#secondary-menu-tabs{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 28px;
+#main-menu-tabs div:nth-child(3){
+    margin-bottom: 60px;
 }
 #subscriptions-title{
     font-size: 18px;
@@ -195,10 +202,11 @@ img{
     color: rgba(137, 137, 137, 1);
 }
 #settings{
-    margin-top: 2%;
+    position: relative;
+    top: 104px;
 }
 #home-page{
     height: 100%;
     position: relative;
-    width: calc(100% - 285px);
+    width: 100%;
 }
