@@ -12,6 +12,13 @@ header{
     width: 100vw;
     background-color: white;
 }
+iframe{
+    margin-top: 84px;
+    border-width: 0px;
+    box-shadow: 0px;
+    width: 100%;
+    height: 100%;
+}
 svg{
     cursor: pointer;
 }
@@ -24,6 +31,9 @@ ul{
 }
 img{
     object-fit:cover;
+}
+ul{
+    overflow: hidden;
 }
 .tiny-subscribed-image{
     width: 26px;
@@ -115,18 +125,25 @@ img{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-.home-page-import{
-    margin-top: 84px;
-    border-width: 0px;
-    box-shadow: 0px;
-    width: 100%;
-    height: 100%;
-}
+
 .menu-tabs-buttons{
     color: rgba(137, 137, 137, 1);
-    display: flex;
+    display: grid;
+    grid-template-columns: 22px 1fr;
     align-items: center;
     gap: 12px;
+}
+.subscribe-button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 154px;
+    height: 40px;
+    margin-left: 35%;
+    position: static;
+    text-align: center;
+    align-content: center;
+    font-family: 'Muli';
 }
 #menu-container{
     margin-top: 84px;   
@@ -140,7 +157,7 @@ img{
     max-height: 84px;
 }
 #menu-opener{
-    margin-left: 1.7%;
+    margin-left: 30px;
 }
 #main-icon{
     margin: auto;
