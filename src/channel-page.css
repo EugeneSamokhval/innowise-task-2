@@ -36,7 +36,6 @@
     height: 80px;
     border-radius: 50%;
 }
-
 .channel-tabs-bar{
     display: grid;
     width: 834px;
@@ -50,7 +49,7 @@
 }
 .channel-tabs-bar div:nth-child(1){
     color: red;
-    border-bottom: 2px solidx red;
+    border-bottom: 2px solid red;
 }
 .channel-tabs-bar-option{
     color: rgba(0, 0, 0, 1);
@@ -105,6 +104,11 @@
 .channel-page-recomentaions-last{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.channel-visible{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
 #last-video-descripton{
     display: inline;

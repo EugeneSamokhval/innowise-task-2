@@ -10,10 +10,20 @@
     <link rel="stylesheet" href="./src/main-page.css">
     <link rel="stylesheet" href="./src/channel-page.css">
     <link rel="stylesheet" href="./src/home-page.css">
+    <link rel="stylesheet" href="./src/responsive-main-page.css">
+    <link rel="stylesheet" href="./src/responsive-channel-page.css">
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
 
 <body>
+    <div class="channel-top-bar-container channel-visible">
+        <div id="responsive-channel-title-bar">
+            <img id="channel-main-logo" src="./assets/svgs/mini-main-logo.svg">
+            Margaret Phelps
+        </div>
+        <img id="cahnnel-search-logo" src="./assets/svgs/search-logo.svg">
+        <img id="options-logo" src="./assets/svgs/3-dots-vertical.svg">
+    </div>
     <img class="channel-cover" src="./assets/channel-cover.png">
     <div class="channel-interactions-block">
         <img class="channel-logo" src="./assets/noira.png">
@@ -23,12 +33,14 @@
         </div>
         <img id='channel-bell' width="22" height="26" viewBox="0 0 22 26" fill="none"
             src="./assets/svgs/cahnnel-bell-logo.svg">
+
         <div class="subscribe-button" id="channel-subscribe-button">Subscribe 2.3m</div>
     </div>
     <div class="channel-tabs-bar">
         <div class="channel-tabs-bar-option">Home</div>
         <div class="channel-tabs-bar-option">Videos</div>
         <div class="channel-tabs-bar-option">Playlists</div>
+        <div class="channel-tabs-bar-option channel-visible"><img src="./assets/svgs/show-more-logo-bold.svg"></div>
         <div class="channel-tabs-bar-option">Channels</div>
         <div class="channel-tabs-bar-option">Discussion</div>
         <div class="channel-tabs-bar-option">About</div>
