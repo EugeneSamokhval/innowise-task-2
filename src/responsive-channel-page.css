@@ -1,9 +1,4 @@
 @media (max-width: 825px) {
-    .particaly-visible{
-        visibility: hidden;
-        width: 0px;
-        height: 0px;
-    }
     .channel-visible{
         visibility: visible;
         width: unset;

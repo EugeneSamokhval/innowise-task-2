@@ -9,10 +9,11 @@ if (pageChanger && shownPage && headerContainer) {
         if (shownPage.src.endsWith("channel-page.html")) {
             shownPage.src = "./home-page.html";
             shownPage.style.marginTop = '6vh'
-            document.documentElement.classList.remove("particaly-visibl")
+            headerContainer.classList.remove('invisible-content')
         } else if (shownPage.src.endsWith("home-page.html")) {
             shownPage.src = "./channel-page.html";
-            document.documentElement.classList.add("particaly-visibl")
+            headerContainer.classList.add('invisible-content')
+            
         }
     });
 }

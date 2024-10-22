@@ -4,6 +4,11 @@
         height: 100vh;
         overflow-x: hidden;
     }
+    .invisible-content{
+        opacity: 0%;
+        position: absolute;
+        top: -100px;
+    }
     .menu-tabs-buttons{
         grid-template-columns: 1fr;
         grid-template-rows: 22px 1fr;
