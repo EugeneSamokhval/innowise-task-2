@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="./src/main-page.css">
     <link rel="stylesheet" href="./src/responsive-main-page.css">
     <link rel="stylesheet" href="./src/responsive-channel-page.css">
+    <script src="./src/index.js" defer></script>
 </head>
 
 <body>
     <header>
-        <div id="header-content-container">
+        <div id="header-content-container" class="particaly-visible">
             <img id="menu-opener" width="20" height="17" viewBox="0 0 20 17" src="./assets/svgs/menu-opener.svg">
             <img id="main-icon" href="/#" width="116" height="25" viewBox="0 0 116 25" fill="none"
                 src="./assets/svgs/main-logo.svg">
@@ -109,9 +110,7 @@
                     src="./assets/svgs/settings-logo.svg">
             </div>
         </div>
-        <!-- <iframe src="./home-page.html" class="home-page-import">
-        </iframe> -->
-        <iframe class="home-page-import" src="./channel-page.html">
+        <iframe src="./home-page.html" id="home-page-import">
         </iframe>
     </main>
     <footer>
