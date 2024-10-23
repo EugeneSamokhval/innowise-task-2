@@ -19,6 +19,9 @@
 .bigger-video-scroll-list .add-info-container{
     width: 540px;
 }
+#home-page{
+    margin-top: 2vh;
+}
 }
 .recommended-sign{
     font-size: 16px;
