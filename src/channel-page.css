@@ -1,0 +1,154 @@
+.channel-cover {
+    width: 1595px;
+    height: 280px;
+    border-radius: 14px;
+}
+
+.channel-interactions-block {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
+
+.channel-subscribers-count {
+    display: inline;
+    height: 40px;
+    font-size: 13px;
+    color: rgba(194, 194, 194, 1);
+    margin: 0px;
+}
+
+.channel-title {
+    display: inline;
+    margin: 0px;
+    height: 40px;
+}
+
+.channel-text-block {
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.channel-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.channel-tabs-bar {
+    display: grid;
+    width: 834px;
+    height: 28px;
+    margin-top: 20px;
+    gap: 69px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.channel-tabs-bar div:nth-child(1) {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.channel-tabs-bar-option {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+}
+
+.last-video-title {
+    font-size: 26px;
+    width: 431px;
+    margin: 0px;
+    color: rgba(25, 32, 44, 1);
+}
+
+.last-video-description {
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.last-video-card {
+    display: flex;
+    flex-flow: row;
+    gap: 32px;
+    width: 1120px;
+    height: 250px;
+}
+
+.last-video-add-info {
+    color: rgba(194, 194, 194, 1);
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.recommended-channels-list {
+    color: rgba(194, 194, 194, 1);
+    display: inline-flex;
+    height: 260px;
+    width: 188px;
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    position: relative;
+    bottom: 70px;
+}
+
+.recommended-channels-item {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    gap: 20px;
+}
+
+.recommended-channels-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.channel-page-recomentaions-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.channel-visible {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+#last-video-descripton {
+    display: inline;
+    width: 545px;
+    margin: 0px;
+}
+
+#channel-subscribe-button {
+    margin-left: 0px;
+    margin-right: 70px;
+}
+
+#channel-bell {
+    margin-left: auto;
+}
+
+#last-video-cover {
+    width: 540px;
+    height: 250px;
+}
+
+#last-video-length {
+    bottom: -206px;
+    left: -630px;
+}
