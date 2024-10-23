@@ -1,10 +1,11 @@
 @media (max-width: 825px) {
-    .channel-visible{
+    .channel-visible {
         visibility: visible;
         width: unset;
         height: unset;
     }
-    .channel-top-bar-container{
+
+    .channel-top-bar-container {
         position: fixed;
         width: 100vw;
         height: 6vh;
@@ -15,12 +16,14 @@
         z-index: 999;
         align-items: center;
     }
-    #home-page-import{
+
+    #home-page-import {
         justify-content: center;
         width: 100vw;
         margin-top: 0px;
     }
-    .channel-cover{
+
+    .channel-cover {
         border-radius: 0px;
         width: 100vw;
         height: 10vh;
@@ -28,7 +31,8 @@
         top: 6vh;
         z-index: 0px;
     }
-    .channel-interactions-block{
+
+    .channel-interactions-block {
         display: grid;
         align-items: start;
         margin-left: 16px;
@@ -36,46 +40,56 @@
         width: 100vw;
         left: 11px;
     }
-    .channel-page-recomentaions-last{
+
+    .channel-page-recomentaions-last {
         visibility: hidden;
         width: 0px;
         height: 0px;
     }
-    .main-page-channel-title{
+
+    .main-page-channel-title {
         visibility: hidden;
         margin: 0px;
         width: 0px;
         height: 0px;
     }
-    .channel-tabs-bar{
+
+    .channel-tabs-bar {
         margin: 0px;
         width: 100vw;
         gap: 40px;
         grid-template-columns: repeat(4, 1fr)
     }
-    #home-page-import{
+
+    #home-page-import {
         display: flex;
         gap: 30px;
         flex-flow: column;
     }
-    .channel-tabs-bar div:nth-child(n+5){
+
+    .channel-tabs-bar div:nth-child(n+5) {
         visibility: hidden;
         width: 0px;
         height: 0px;
     }
-    .channel-logo{
+
+    .channel-logo {
         z-index: 999;
     }
-    #recent-updates-container, .channel-tabs-bar{
+
+    #recent-updates-container,
+    .channel-tabs-bar {
         margin-left: 16px;
     }
-    #channel-bell{
+
+    #channel-bell {
         visibility: hidden;
         margin: 0px;
         height: 0px;
         width: 0px;
     }
-    #responsive-channel-title-bar{
+
+    #responsive-channel-title-bar {
         display: flex;
         width: 183px;
         height: 100%;
@@ -84,10 +98,12 @@
         gap: 10px;
         font-weight: bold;
     }
-    #channel-search-logo{
-        margin:auto;
+
+    #channel-search-logo {
+        margin: auto;
     }
-    #channel-subscribe-button{
+
+    #channel-subscribe-button {
         height: 34px;
         margin-bottom: 30px;
     }
