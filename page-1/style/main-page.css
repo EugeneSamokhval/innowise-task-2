@@ -242,6 +242,7 @@ img {
 
 #main-menu-tabs {
     display: grid;
+    border-top: 1px solid rgba(241, 241, 241, 1);
     grid-template-columns: 1fr;
     row-gap: 28px;
     margin-bottom: 58px;
