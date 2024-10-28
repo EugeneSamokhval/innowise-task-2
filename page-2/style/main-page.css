@@ -34,6 +34,11 @@ main {
     grid-template-columns: 255px 1fr;
 }
 
+ul {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
 img {
     object-fit: cover;
 }
@@ -270,7 +275,7 @@ img {
 #home-page {
     height: 100%;
     position: relative;
-    width: 100%;
+    width: calc(100vw - 255px);
     margin-top: 84px;
 }
 
