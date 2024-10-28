@@ -61,14 +61,17 @@
 
     #menu-opener {
         visibility: hidden;
+        margin: 0px;
+        height: 0px;
+        width: 0px;
     }
 
     #main-icon {
-        margin: 0px;
         width: 235%;
         height: 235%;
         max-width: 116px;
         max-height: 25px;
+        margin-left: 16px;
     }
 
     #menu-container {
@@ -77,15 +80,16 @@
         bottom: 0vh;
         margin: 0px;
         width: 100%;
-        max-height: 6vh;
+        max-height: 61px;
         background-color: white;
     }
 
     #menu {
-        bottom: 6vh;
+        bottom: 61px;
         left: 0px;
         width: 100%;
-        max-height: 6vh;
+        max-height: 61px;
+        margin-bottom: 11px;
     }
 
     #subscriptions-title {
@@ -117,7 +121,7 @@
         justify-items: center;
         font-size: 13px;
         align-items: baseline;
-        margin-bottom: 0px;
+        margin-top: 11px;
 
     }
 
@@ -126,8 +130,9 @@
     }
 
     #home-page {
-        width: 100%;
-        padding: 16px;
+        width: 100vw;
+        margin: 16px;
+        margin-top: 84px;
     }
 
     #main-menu-tabs div:nth-child(3) {
@@ -149,10 +154,16 @@
     }
 
     .video-title {
-        width: calc(100vw - 20px);
+        width: calc(100vw - 32px);
     }
 
     .add-info-container {
-        width: calc(100vw - 20px);
+        width: calc(100vw - 32px);
+    }
+
+    .medium-channel-bar {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
     }
 }
