@@ -5,13 +5,14 @@
 }
 
 .channel-interactions-block {
-    width: 100%;
+    width: 1595px;
     height: 80px;
     display: flex;
     flex-flow: row;
     justify-content: start;
     align-items: center;
     gap: 14px;
+    margin-top: 30px;
 }
 
 .channel-subscribers-count {
@@ -136,7 +137,7 @@
 
 #channel-subscribe-button {
     margin-left: 0px;
-    margin-right: 70px;
+    margin-right: 0px;
 }
 
 #channel-bell {

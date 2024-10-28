@@ -13,14 +13,8 @@ header {
     max-height: 84px;
     width: 100vw;
     background-color: white;
-}
+    z-index: 9999;
 
-iframe {
-    margin-top: 84px;
-    border-width: 0px;
-    box-shadow: 0px;
-    width: 100%;
-    height: 100%;
 }
 
 svg {
@@ -34,14 +28,11 @@ main {
 
 ul {
     overflow-y: hidden;
+    overflow-x: auto;
 }
 
 img {
     object-fit: cover;
-}
-
-ul {
-    overflow: hidden;
 }
 
 .tiny-subscribed-image {
@@ -82,6 +73,7 @@ ul {
     font-size: 26px;
     line-height: 32.63px;
     display: inline;
+    white-space: nowrap;
 }
 
 .video-card {
@@ -136,6 +128,7 @@ ul {
     display: flex;
     gap: 40px;
     padding-left: 0px;
+    padding-right: 60px;
 }
 
 .add-data-container {
@@ -146,7 +139,7 @@ ul {
 .arrows-scrolling {
     display: grid;
     margin-left: auto;
-    margin-right: 20%;
+    margin-right: 149px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
@@ -166,17 +159,18 @@ ul {
     border-radius: 20px;
     width: 154px;
     height: 40px;
-    margin-left: 35%;
-    position: static;
+    margin-right: 40px;
     text-align: center;
     align-content: center;
+    justify-self: right;
+    margin-left: 777px;
     font-family: 'Muli';
 }
 
 #menu-container {
-    margin-top: 84px;
+    margin-top: 114px;
     display: fixed;
-    width: 255px;
+    width: 234px;
     margin-left: 30px;
 }
 
@@ -185,6 +179,7 @@ ul {
     display: flex;
     align-items: center;
     max-height: 84px;
+    background-color: white;
 }
 
 #menu-opener {
@@ -214,7 +209,7 @@ ul {
     box-shadow: none;
     border-width: 0px;
     font-size: 16px;
-    line-height: 20.08px;
+    line-height: 20px;
     padding-left: 2.8%;
 }
 
@@ -256,7 +251,6 @@ ul {
 
 #subscriptions-title {
     font-size: 18px;
-    line-height: 22.59px;
     font-family: "Muli";
 }
 
@@ -272,7 +266,7 @@ ul {
 #home-page {
     height: 100%;
     position: relative;
-    width: 100%;
+    width: calc(100vw - 255px);
 }
 
 #import-home-page {
